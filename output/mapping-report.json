@@ -1,0 +1,98 @@
+{
+  "summary": {
+    "totalRecords": 3,
+    "successfulTransformations": 3,
+    "failedTransformations": 0,
+    "successRate": "100.00%"
+  },
+  "fieldMappings": {
+    "CustomerName": "Mapped from ServiceTitan data",
+    "CreditLimit": "Mapped from ServiceTitan data",
+    "CustomerNumber": "Mapped from ServiceTitan data",
+    "PrimaryContact": "Mapped from ServiceTitan data",
+    "Phone": "Mapped from ServiceTitan data",
+    "Email": "Mapped from ServiceTitan data",
+    "CustomerType": "Mapped from ServiceTitan data",
+    "PaymentTerms": "Mapped from ServiceTitan data",
+    "Status": "Mapped from ServiceTitan data",
+    "BillToAddress": "Mapped from ServiceTitan data",
+    "ShipToAddress": "Mapped from ServiceTitan data",
+    "SourceSystem": "Mapped from ServiceTitan data",
+    "LastSyncDate": "Mapped from ServiceTitan data"
+  },
+  "sampleTransformation": {
+    "original": {
+      "id": 12345,
+      "name": "Smith Plumbing Services LLC",
+      "type": "Commercial",
+      "contacts": [
+        {
+          "id": 67890,
+          "name": "John Smith",
+          "isPrimary": true,
+          "phone": "(555) 123-4567",
+          "email": "john@smithplumbing.com",
+          "title": "Owner"
+        },
+        {
+          "id": 67891,
+          "name": "Jane Smith",
+          "isPrimary": false,
+          "phone": "(555) 123-4568",
+          "email": "jane@smithplumbing.com",
+          "title": "Office Manager"
+        }
+      ],
+      "address": {
+        "street": "123 Main Street",
+        "unit": "Suite 100",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62701",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "street": "123 Main Street",
+        "unit": "Suite 100",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62701",
+        "country": "USA"
+      },
+      "paymentTerms": "Net 30",
+      "creditLimit": 10000,
+      "isActive": true,
+      "createdOn": "2025-01-15T10:30:00Z",
+      "modifiedOn": "2025-01-15T10:30:00Z"
+    },
+    "transformed": {
+      "CustomerName": "Smith Plumbing Services LLC",
+      "CreditLimit": 10000,
+      "CustomerNumber": "CUST-12345",
+      "PrimaryContact": "John Smith",
+      "Phone": "(555) 123-4567",
+      "Email": "john@smithplumbing.com",
+      "CustomerType": "COMM",
+      "PaymentTerms": "NET30",
+      "Status": "ACTIVE",
+      "BillToAddress": {
+        "AddressLine1": "123 Main Street",
+        "AddressLine2": "Suite 100",
+        "City": "Springfield",
+        "State": "IL",
+        "PostalCode": "62701",
+        "Country": "USA"
+      },
+      "ShipToAddress": {
+        "AddressLine1": "123 Main Street",
+        "AddressLine2": "Suite 100",
+        "City": "Springfield",
+        "State": "IL",
+        "PostalCode": "62701",
+        "Country": "USA"
+      },
+      "SourceSystem": "ServiceTitan",
+      "LastSyncDate": "2025-09-11"
+    }
+  }
+}

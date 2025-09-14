@@ -1,0 +1,89 @@
+[
+  {
+    "CustomerName": "Smith Plumbing Services LLC",
+    "CreditLimit": 10000,
+    "CustomerNumber": "CUST-12345",
+    "PrimaryContact": "John Smith",
+    "Phone": "(555) 123-4567",
+    "Email": "john@smithplumbing.com",
+    "CustomerType": "COMM",
+    "PaymentTerms": "NET30",
+    "Status": "ACTIVE",
+    "BillToAddress": {
+      "AddressLine1": "123 Main Street",
+      "AddressLine2": "Suite 100",
+      "City": "Springfield",
+      "State": "IL",
+      "PostalCode": "62701",
+      "Country": "USA"
+    },
+    "ShipToAddress": {
+      "AddressLine1": "123 Main Street",
+      "AddressLine2": "Suite 100",
+      "City": "Springfield",
+      "State": "IL",
+      "PostalCode": "62701",
+      "Country": "USA"
+    },
+    "SourceSystem": "ServiceTitan",
+    "LastSyncDate": "2025-09-11"
+  },
+  {
+    "CustomerName": "Johnson Residence",
+    "CreditLimit": 5000,
+    "CustomerNumber": "CUST-23456",
+    "PrimaryContact": "Mike Johnson",
+    "Phone": "(555) 987-6543",
+    "Email": "mike.johnson@email.com",
+    "CustomerType": "RES",
+    "PaymentTerms": "DOR",
+    "Status": "ACTIVE",
+    "BillToAddress": {
+      "AddressLine1": "456 Oak Avenue",
+      "AddressLine2": "",
+      "City": "Springfield",
+      "State": "IL",
+      "PostalCode": "62702",
+      "Country": "USA"
+    },
+    "ShipToAddress": {
+      "AddressLine1": "456 Oak Avenue",
+      "AddressLine2": "",
+      "City": "Springfield",
+      "State": "IL",
+      "PostalCode": "62702",
+      "Country": "USA"
+    },
+    "SourceSystem": "ServiceTitan",
+    "LastSyncDate": "2025-09-11"
+  },
+  {
+    "CustomerName": "Metro Construction Corp",
+    "CreditLimit": 50000,
+    "CustomerNumber": "CUST-34567",
+    "PrimaryContact": "Sarah Wilson",
+    "Phone": "(555) 555-0123",
+    "Email": "swilson@metroconstruction.com",
+    "CustomerType": "IND",
+    "PaymentTerms": "NET60",
+    "Status": "INACTIVE",
+    "BillToAddress": {
+      "AddressLine1": "789 Industrial Blvd",
+      "AddressLine2": "Building A",
+      "City": "Springfield",
+      "State": "IL",
+      "PostalCode": "62703",
+      "Country": "USA"
+    },
+    "ShipToAddress": {
+      "AddressLine1": "789 Industrial Blvd",
+      "AddressLine2": "Building A",
+      "City": "Springfield",
+      "State": "IL",
+      "PostalCode": "62703",
+      "Country": "USA"
+    },
+    "SourceSystem": "ServiceTitan",
+    "LastSyncDate": "2025-09-11"
+  }
+]

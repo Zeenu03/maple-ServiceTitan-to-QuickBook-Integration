@@ -1,0 +1,16 @@
+{
+  "name": "st-vista-mapping-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo project for mapping ServiceTitan data to ViewPoint Vista format",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/primaryData.test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "keywords": ["servicetitan", "viewpoint-vista", "data-mapping", "transformation"],
+  "author": "Jinil Patel"
+}
